@@ -1,10 +1,9 @@
-
-import java_cup.runtime.*;
-
+/* Esse arquivo é passado para o JFlex que vai gerar uma classe Java com a configuração definida aqui. */
+import java_cup.runtime.*; /* Bibliotecas usadas */
 %%
 
-%public
-%class Scanner
+%public /* Visibilidade da classe gerada */
+%class Scanner /* Nome da classe gerada */
 %implements sym
 
 %unicode
